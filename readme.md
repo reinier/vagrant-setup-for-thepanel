@@ -2,7 +2,7 @@
 
 ## How to use this?
 
-This [Vagrant](http://www.vagrantup.com) setup is created for [The Panel](http://thepanel.io). Just put these files and directories (except for this readme.md) in the root of your The Panel project and use vagrant up to provision your server. This setup is for *development* only.
+This [Vagrant](http://www.vagrantup.com) setup is created for [The Panel](http://thepanel.io). Just put these files and directories (except for this readme.md) in the root of your The Panel project and use `vagrant up` to provision your server. This setup is for *development* only. If you would like to roll your own specific setup, use [PuPHPet](https://puphpet.com).
 
 Add the following configuration variables to The Panel into the right place:
 
@@ -30,6 +30,6 @@ etc.
 
 ## Domain
 
-The Panel will be running on [http://thepanel.dev](http://thepanel.dev) when you add this to your host file (`/etc/hosts` on Mac):
+The Panel will now be running on [http://thepanel.dev](http://thepanel.dev) when you add this to your host file (`/etc/hosts` on Mac):
 	
 	192.168.56.101 thepanel.dev
