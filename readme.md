@@ -33,3 +33,7 @@ etc.
 The Panel will now be running on [http://thepanel.dev](http://thepanel.dev) when you add this to your host file (`/etc/hosts` on Mac):
 	
 	192.168.56.101 thepanel.dev
+
+## Misc
+
+**Run [composer](https://getcomposer.org) from within the vagrant server.** Directory permissions are already taken care of during server provisioning. Run [bower](http://bower.io) from your computer, not from within the vagrant server. All the files from the project root are available in `/var/www` inside the vagrant server. You can ssh into the vagrant server with `vagrant ssh`.
